@@ -11,6 +11,11 @@ function sum(a, b) {
 
 }
 
-function sayHello(input) {
-    return "Hello, " + input + "!";
+
+function sayHello(input){
+    if (input === true || input === false){
+        return "Hello, World!";
+    } else {
+        return "Hello, " + input + "!";
+    }
 }

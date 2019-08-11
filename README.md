@@ -24,7 +24,7 @@ Additionally, we will be using a process called Test Driven Development, commonl
 ## Overview
 - Green tests are passing, red tests mean that the code is incomplete, inaccurate, missing, or you have a syntax error somewhere in your code.
 - Syntax errors in either the `tests.js` or the `code.js` file will keep things from running accurately. If you go from a page of many green tests to all red, there's likely a typo or syntax errors somewhere.
-- The approach of writing tests before writing the code that passes is called Test-Driven Development, or TDD.
+- The approach of writing tests** before writing the code that passes is called Test-Driven Development, or TDD.
 - Writing small tests, like the ones provided, is called `unit testing`.
 - "Unit testing" means to test a piece of functionality as small as a single function. Testing entire applications from end-to-end is another topic.
 - This introduction will introduce unit tests, the TDD practice of writing tests first, and writing the code to pass unit tests.

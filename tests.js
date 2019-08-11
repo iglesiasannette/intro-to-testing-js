@@ -31,16 +31,23 @@ describe("sum" , function() {
 
 
 describe('sayHello', function() {
-    it('should return a string when called', function() {
+    it('should return a string when called', function () {
         expect(typeof sayHello()).toBe('string');
     });
-    it('should return the string "Hello, Jane!" when passed Jane', function() {
+    it('should return the string "Hello, Jane!" when passed Jane', function () {
         expect(sayHello("Jane")).toBe("Hello, Jane!");
     });
-    it('should return the string "Hello, Alex!" when passed "Alex"', function() {
+    it('should return the string "Hello, Alex!" when passed "Alex"', function () {
         expect(sayHello("Alex")).toBe("Hello, Alex!");
-    });it('should return the string "Hello, Pat!" when passed "Pat"', function() {
+    });
+    it('should return the string "Hello, Pat!" when passed "Pat"', function () {
         expect(sayHello("Pat")).toBe("Hello, Pat!");
+    });
+    it('should return the string "Hello, World!" when passed helloWorld', function () {
+    expect(sayHello(true)).toBe("Hello, World!");
+    });
+    it('should return the string "Hello, World!" when passed helloWorld', function () {
+        expect(sayHello(false)).toBe("Hello, World!");
     });
 
 });
