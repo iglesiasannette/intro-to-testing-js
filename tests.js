@@ -1,3 +1,4 @@
+
 // Unit tests for the helloWorld function
 describe('helloWorld', function() {
     it('should be a defined function', function() {
@@ -27,6 +28,16 @@ describe("sum" , function() {
         expect(sum("black", "sheep")).toBe(false);
     });
 });
+
+
+describe('sayHello', function() {
+    it('should return a string when called', function() {
+        expect(typeof sayHello()).toBe('string');
+    });
+});
+
+
+
 
 
 
