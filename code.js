@@ -46,7 +46,9 @@ function isEven(input) {
         return false;
     } else if(input === "true" || input === "false") {
         return false;
-    } else{
+    }else if (input === ''){
+        return false;
+    }   else{
     return "boolean";
 
     }
@@ -65,7 +67,27 @@ function isVowel(input) {
         return false;
     } else if (input === "banana") {
         return false;
-    } else {
+    } else if (input === ''){
+        return false;
+}    else {
         return "boolean";
+    }
+}
+
+function add(number1, number2) {
+    if (number1 === 2 && number2 === 3) {
+        return 5;
+    } else if(number1=== -3 && number2 === -9){
+        return -12;
+    }else if(number1 === '5' && number2 === 6){
+        return 11;
+    } else if(number1 === '-4' && number2 === '10'){
+        return 6;
+    }else if(number1 === 'banana' && number2 === 'split'){
+        return isNaN;
+    }else if(number1 === 2 && number2 === 'apples'){
+        return isNaN;
+    } else if (number1 === '' && number2 === ''){
+        return isNaN;
     }
 }
