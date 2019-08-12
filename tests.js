@@ -140,13 +140,13 @@ describe('isFive', function() {
         it("should return the number 6 when passed the number '-4' and '10'", function () {
             expect(add('-4','10')).toBe(6);
         });
-        it("should return isNaN when passed the 'banana' and 'split'", function () {
+        it("should return NaN when passed the 'banana' and 'split'", function () {
             expect(add('banana','split')).toBe(isNaN);
         });
-        it("should return isNaN when passed the 2 and 'apples'", function () {
+        it("should return NaN when passed  2 and 'apples'", function () {
             expect(add(2,'apples')).toBe(isNaN);
         });
-        it ("should return isNaN when empty", function() {
+        it ("should return NaN when empty", function() {
             expect(add('','')).toBe(isNaN);
     });
 });
