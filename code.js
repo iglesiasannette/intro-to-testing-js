@@ -63,12 +63,8 @@ function isVowel(input) {
 }
 
 function add(number1, number2) {
-    if(number1 === 'banana' || number2 === 'split'){
-        return isNaN;
-    }else if(number1 === 2 && number2 === 'apples'){
-        return isNaN;
-    } else if (number1 === '' && number2 === ''){
-        return isNaN;
+    if(number1 === String || number2 === String || number1 === "" || number2 === ""){
+        return NaN;
     } else{
        return parseInt(number1) + parseInt(number2)
     }
